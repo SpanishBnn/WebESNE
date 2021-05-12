@@ -1,1 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'lato';
+}
+
+.parallax-completo{
+    width: 100%;
+    height:100vh;
+    background-image: url('hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-hero{
+    background: #111;
+    padding: 18px;
+    width: 320px;
+    text-align: center;
+    color: #fff;
+}
+
+h2{
+    font-size:32px;
+    font-weight: 300;
+}
+
+.center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.espacio{
+    padding: 30px 0 60px 0;
+}
+
+.espacio h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.espacio p{
+    text-align: justify;
+}
+
+.parallax-chico{
+    height: 450px;
+    background-image: url(hero.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax-chico h2{
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.texto{
+    background:  #111;
+    height:190px;
+}
+
+.texto h2{
+    text-align: center;
+    color: white;
+    display: flex;
+    height:inherit;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --gold1:#F4BD76;
+    --gold2:#F6CD8F;
+    --gray:#ffffff80;
+    --gray2:#f7d9d990;
+    --black1: #1A1B1F;
+    --black2: #30353B;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+}
+
+.container--modifier{
+    width: 60%;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+}
+
+.nav__hero{
+    color: #fff;
+    height: 70px;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.logo__name{
+    font-size: 24px;
+}
+
+.link{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+
+
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+a:hover{
+    background: #03e9f4;
+    color: red;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+a:nth-child(2){
+    filter: hue-rotate(240deg);
+}
+a:nth-child(3){
+    filter: hue-rotate(110deg);
+}
+a:nth-child(4){
+    filter: hue-rotate(110deg);
+}
+a:nth-child(5){
+    filter: hue-rotate(110deg);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+
+}
+
+}
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+ 
+}
+
+
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(100deg,transparent,#ffff);
 
