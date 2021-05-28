@@ -9,11 +9,11 @@ body{
     width: 100%;
     font-family: 'lato';
 }
- /* pagina principal*/
+ /* parallax */
 .parallax-completo{
     width: 100%;
     height:100vh;
-    background-image: url('hero.jpg');
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,14 +23,12 @@ body{
     align-items: center;
 }
 
-
-
 .texto-hero{
-    background: #111;
+    background: transparent;
     padding: 18px;
     width: 320px;
     text-align: center;
-    color: #fff;
+    color: white;
 }
 
 h2{
@@ -65,6 +63,7 @@ h2{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    background: white;
 }
 
 .parallax-chico h2{
@@ -91,7 +90,6 @@ h2{
 }
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 :root{
@@ -105,7 +103,7 @@ h2{
     --color_shadow: #00000033;
 }
 
-
+/* menu */
 
 
 body{
@@ -250,6 +248,7 @@ a span:nth-child(4){
     animation-delay: 0.75s;
 }
 
+
 /*<!--Contacto->*/
 
 .touch_section{
@@ -273,7 +272,7 @@ a span:nth-child(4){
 .lets_touch_main{
 	width: 100%;
 	float: left;
-	background-color: #072833;
+	background-color: black;
 	padding-top: 40px;
 	padding-bottom: 40PX;
 }
@@ -281,7 +280,7 @@ a span:nth-child(4){
 .input_main{
 	width: 100%;
 	float: left;
-	background-color: #ffffff;
+	background-color: white;
     padding: 40px 20px;
 }
 
@@ -291,10 +290,10 @@ a span:nth-child(4){
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
-    background-color: #072833;
+    color: black;
+    background-color: black;
     background-clip: padding-box;
-    border: 1px solid #072833;
+    border: 1px solid black;
     border-radius: 0px;
     border: 0px;
 }
@@ -303,7 +302,7 @@ a span:nth-child(4){
 .lorem_text{
 	width: 100%;
 	float: left;
-	color: #ffffff;
+	color: #ffffff;    
 	font-size: 17px;
     line-height: 35px;
     padding-top: 80px;
@@ -331,22 +330,6 @@ a span:nth-child(4){
 	text-align: center;
 }
 
-.copyright{
-	width: 100%;
-	float: left;
-	background-color: #076787;
-	padding-top: 10px;
-	padding-bottom: 10px;
-
-}
-
-.copyright_text{
-	width: 100%;
-	float: left;
-	color: #fbfdfd;
-	text-align: center;
-	margin: 0px;
-}
 
 .email-text{
 	width: 100%;
@@ -428,7 +411,7 @@ button.main_bt {
 .services_main{
 	width: 100%;
 	float: left;
-	background-color: transparent;
+	background-color: white;
 	height: auto;
 	padding-bottom: 30px;
 	padding-top: 30px;
@@ -486,7 +469,7 @@ button.main_bt {
 .written_text{
 	width: 100%;
 	float: left;
-	background-color: white;
+	background-color: black;
 	height: auto;
 	padding: 20px;
 }
@@ -494,12 +477,73 @@ button.main_bt {
 .written_text{
 	width: 100%;
 	float: left;
-	color: black;
+	color: white;
 	margin-top: 20px;
 }
 .like_icon{
 	padding-left: 20px;
 	min-height: 50px;
+}
+
+/* NEWS */
+
+
+.blog_main{
+	width: 100%;
+	float: left;
+}
+
+.blog_text{
+	width: 100%;
+	float: left;
+	font-size: 34px;
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.blog_section_2{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.section_1{
+	width: 100%;
+	float: left;
+	background-color: #fff;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.date-bt {
+    background: #072833;
+    border: none;
+    color: #fff;
+    width: 110px;
+    height: 35px;
+    font-size: 12px;
+    margin-top: -35px;
+    font-weight: 500;
+    float: left;
+    max-width: 100%;
+    clear: both;
+    position: relative;
+}
+
+.about_page .creative_taital {
+    width: 100%;
+    float: left;
+    background-color: black;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #e7e7e7;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    box-shadow: none;
 }
 
 
