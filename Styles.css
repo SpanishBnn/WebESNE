@@ -13,7 +13,7 @@ body{
 .parallax-completo{
     width: 100%;
     height:100vh;
-    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-image: url('imagenes/wallpaperflare.com_wallpaper.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -195,7 +195,9 @@ a:nth-child(3){
 }a:nth-child(5){
     filter: hue-rotate(280deg);
 }
-
+}a:nth-child(6){
+    filter: hue-rotate(360deg);
+}
 a span{
     position: absolute;
     display: block;
@@ -219,14 +221,7 @@ a span:nth-child(2){
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
-@keyframes animate2{
-    0%{
-        top: -100%;
-    }
-    50%,100%{
-        top: 100%;
-    }
-}
+
 a span:nth-child(3){
     bottom: 0;
     right: 0;
@@ -248,8 +243,16 @@ a span:nth-child(4){
     animation-delay: 0.75s;
 }
 
-
-/*<!--Contacto->*/
+a span:nth-child(5){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,#f03e3e);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+/* Contacto */
 
 .touch_section{
 	width: 100%;
@@ -351,18 +354,10 @@ a span:nth-child(4){
     color: #fff;
 }
 
-button.main_bt {
-    background: #ce4109;
-    border: none;
-    color: #fff;
-    width: 150px;
-    height: 50px;
-    border-radius: 5px;
-    font-size: 22px;
-}
+
 
 .email-bt{
-	background: #072833;
+	background: black;
     border: none;
     color: #fff;
     width: 100%;
@@ -372,7 +367,7 @@ button.main_bt {
 }
 
 .massage-bt{
-	background: #072833;
+	background: black;
     border: none;
     color: #fff;
     width: 100%;
@@ -381,12 +376,7 @@ button.main_bt {
     padding: 20px;
 }
 
-.button.navbar-toggler.collapsed { background: #fff;}
-.navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    background-color: #fff;
-    padding: 10px 20px;
-}
+
 
 .about_main{
 	width: 100%;
@@ -407,7 +397,7 @@ button.main_bt {
 }
 
 
-  /* equipo Start */
+  /* Equipo Start */
 .services_main{
 	width: 100%;
 	float: left;
@@ -425,7 +415,7 @@ button.main_bt {
 	padding-bottom: 30px;
 	padding-top: 30px;
     box-shadow: 0px 0px 10px 0px;
-    color: #e7e7e7;
+    color: white;
     margin-top: -110px;
     margin-bottom: 50px;
 }
@@ -487,70 +477,36 @@ button.main_bt {
 
 /* NEWS */
 
-
-.blog_main{
-	width: 100%;
-	float: left;
+ .Lastestnews {
+     padding:90px 0px;
+     background: white;
 }
 
-.blog_text{
-	width: 100%;
-	float: left;
-	font-size: 34px;
-	color: #000;
-	text-align: center;
-	font-weight: bold;
-	padding-top: 40px;
-	padding-bottom: 40px;
+ .Lastestnews .news-box {
+     background:black;
+     box-shadow: #ddd 0px 0px 8px 4px;
 }
-
-.blog_section_2{
-	width: 100%;
-	float: left;
-	margin-top: 20px;
-	margin-bottom: 20px;
+ .Lastestnews .news-box figure {
+     margin: 0;
 }
-
-.section_1{
-	width: 100%;
-	float: left;
-	background-color: #fff;
-    box-shadow: 0px 0px 10px 0px;
+ .Lastestnews .news-box figure img {
+     width: 100%;
 }
-
-.date-bt {
-    background: #072833;
-    border: none;
-    color: #fff;
-    width: 110px;
-    height: 35px;
-    font-size: 12px;
-    margin-top: -35px;
-    font-weight: 500;
-    float: left;
-    max-width: 100%;
-    clear: both;
-    position: relative;
+ .Lastestnews .news-box h3 {
+     font-size: 22px;
+     line-height: 24px;
+     color: white;
+     font-weight: 500;
+     padding: 20px 20px 4px 20px;
 }
-
-.about_page .creative_taital {
-    width: 100%;
-    float: left;
-    background-color: black;
-    height: auto;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    color: #e7e7e7;
-    margin-top: -100px;
-    margin-bottom: 50px;
-    box-shadow: none;
+ .Lastestnews .news-box span {
+     color: #e61414;
+     margin-left: 20px;
 }
-
-
-
-
-
-
-
-
+ .Lastestnews .news-box p{
+     color: white;
+     font-size:16px;
+     line-height: 23px;
+     padding: 7px 20px 20px 20px;
+}
 
